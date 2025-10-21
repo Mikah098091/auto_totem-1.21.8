@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "simple_auto_totem",
+	"version": "${version}",
+	"name": "Simple Auto Totem",
+	"description": "Automatically puts a totem in your offhand",
+	"authors": ["Mk098091 and MikahHD"],
+	"contributors": ["Mk098091", "MikahHD"],
+	"contact": {
+		"homepage": "https://github.com/Mikah098091",
+		"sources": "https://github.com/Mikah098091",
+		"issues": "https://github.com/yourname/simple-auto-totem/issues"
+	},
+	"license": "MIT",
+	"icon": "assets/simple_auto_totem/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"com.mk.auto_totem.AutoTotemMod"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.15.0",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"recommends": {
+		"modmenu": "*"
+	}
+}
